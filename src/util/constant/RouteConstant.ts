@@ -10,5 +10,9 @@ export const RouteConstant = {
       path: "/home",
       name: "home",
     },
+    report: {
+      path: "/report",
+      name: "report",
+    },
   },
 };

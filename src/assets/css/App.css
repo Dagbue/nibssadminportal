@@ -1,0 +1,42 @@
+
+.dashboard-content{
+    width: 232px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+.admin-other{
+    width: 232px;
+    height: 36px;
+    border-radius: 0px;
+
+}
+
+.dashboard-content-left{
+    align-items: center;
+
+    display: flex;
+    gap: 10px;
+    width: 100px;
+    height: 20px;
+    margin-left: 3px;
+}
+.dashboard-content-left a {
+    text-decoration: none;
+}
+.dashboard-whole{
+    text-decoration: none;
+}
+
+.dashboard-content:hover{
+    background-color:rgba(246, 248, 250, 1);
+    color: rgba(53, 109, 0, 1);
+}
+.footer-nibss-copyright{
+    margin-right: 30px;
+    margin-left: 30px ;
+    margin-top: 320px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
