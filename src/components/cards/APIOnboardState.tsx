@@ -1,3 +1,6 @@
+import personImg from "../../assets/images/Frame-1618868326-9.svg"
+import bellImg from "../../assets/images/Frame-18.svg"
+import upanddownimg from "../../assets/images/Frame-5-1.svg"
 
 
 export default function APIOnboardState(){
@@ -7,7 +10,7 @@ export default function APIOnboardState(){
                 <div className="header-content-container">
                     <div className="dashboard-head">
                         <div className="dashboard-icon-txt-container">
-                            <div className="dashboard-icon"><img src="../images/Frame-1618868326-9.svg" loading="lazy"
+                            <div className="dashboard-icon"><img src= {personImg} loading="lazy"
                                                                  alt=""/></div>
                             <div className="dashboard-txt-container">
                                 <div className="dashboard-top-text">United Bank of Africa</div>
@@ -16,10 +19,10 @@ export default function APIOnboardState(){
                                 </div>
                             </div>
                         </div>
-                        <div className="bell-add-partner-container"><img src="../images/Frame-18.svg" loading="lazy"
+                        <div className="bell-add-partner-container"><img src= {bellImg} loading="lazy"
                                                                          alt=""/></div>
                     </div>
-                    <div className="parthners-divider"></div>
+                    {/*<div className="parthners-divider"></div>*/}
                     <div className="all-billings-container">
                         <div className="all-billings-header">
                             <div className="all-partners-txt-container">
@@ -77,7 +80,7 @@ export default function APIOnboardState(){
                                                 <div>Oops! Something went wrong while submitting the form.</div>
                                             </div>
                                         </div>
-                                        <img src="../images/Frame-5-1.svg" loading="lazy" alt="" className="image-27"/>
+                                        <img src= {upanddownimg} loading="lazy" alt="" className="image-27"/>
                                     </div>
                                     <div className="parther-company-bank">
                                         <div className="w-form">
@@ -279,7 +282,7 @@ export default function APIOnboardState(){
                                 <div className="type-row-conatiner added-api-table onboard-api-name">
                                     <div className="type-row-header">
                                         <div className="type-txt-box">API Name</div>
-                                        <img src="../images/Frame-5-1.svg" loading="lazy" alt=""/>
+                                        <img src= {upanddownimg} loading="lazy" alt=""/>
                                     </div>
                                     <div className="bank-type-box">
                                         <div className="regional-bank-txt">Get Bank List</div>

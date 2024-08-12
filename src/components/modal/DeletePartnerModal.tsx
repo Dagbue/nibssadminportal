@@ -1,12 +1,12 @@
 
+import deleteImg from "../../assets/images/Frame-1618868406.svg"
 
 
-
-export default function DeleteParnterModal (){
+export default function DeletePartnerModal (){
     return (
         <>
             <div className="delete-modal-container delete-partner">
-                <div className="delete-modal-header"><img src="../images/Frame-1618868406.svg" loading="lazy" alt=""
+                <div className="delete-modal-header"><img src= {deleteImg} loading="lazy" alt=""
                                                           className="image-32"/>
                     <div className="delete-modal-header-content">
                         <div className="delet-modal-text-top">Delete Partner</div>

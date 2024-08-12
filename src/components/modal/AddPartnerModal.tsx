@@ -1,4 +1,5 @@
-
+import arrowdownImg from "../../assets/images/chevron-down.svg"
+import adduserImg from "../../assets/images/user-add-line.svg"
 
 
 export default function AddPartnerModal (){
@@ -6,7 +7,7 @@ export default function AddPartnerModal (){
         <>
             <div className="add-parthner-modal-body">
                 <div className="add-partner-her-container">
-                    <div className="partner-avater-icon"><img src="../images/user-add-line.svg" loading="lazy" alt=""/>
+                    <div className="partner-avater-icon"><img src= {adduserImg} loading="lazy" alt=""/>
                     </div>
                     <div className="add-partner-inner-header">
                         <div className="header-text-container">Add Partner</div>
@@ -146,7 +147,7 @@ export default function AddPartnerModal (){
                             <div className="phone-number-box">
                                 <div className="phone-country-code-box">
                                     <div className="country-box">Nig</div>
-                                    <img src="../images/chevron-down.svg" loading="lazy" alt="" className="image-31"/>
+                                    <img src= {arrowdownImg} loading="lazy" alt="" className="image-31"/>
                                 </div>
                             </div>
                         </div>

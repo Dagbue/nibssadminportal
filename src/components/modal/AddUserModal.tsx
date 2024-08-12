@@ -1,11 +1,11 @@
-
+import userIcon from "../../assets/images/Frame-1618868326-9.svg"
 
 
 export default function AddUserModal (){
     return (
         <>
             <div className="add-user-modal-container">
-                <div className="delete-modal-header add-user"><img src="../images/Frame-1618868326-9.svg" loading="lazy"
+                <div className="delete-modal-header add-user"><img src= {userIcon}loading="lazy"
                                                                    alt="" className="image-32"/>
                     <div className="delete-modal-header-content">
                         <div className="delet-modal-text-top">Add User</div>

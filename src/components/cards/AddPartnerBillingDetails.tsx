@@ -1,4 +1,4 @@
-
+import adduserImg from "../../assets/images/user-add-line.svg"
 
 
 export default function AddPartnerBillingDetails (){
@@ -6,7 +6,7 @@ export default function AddPartnerBillingDetails (){
         <>
             <div className="add-parthner-modal-body">
                 <div className="add-partner-her-container">
-                    <div className="partner-avater-icon"><img src="../images/user-add-line.svg" loading="lazy" alt=""/>
+                    <div className="partner-avater-icon"><img src = {adduserImg} loading="lazy" alt=""/>
                     </div>
                     <div className="add-partner-inner-header">
                         <div className="header-text-container">Add Partner</div>

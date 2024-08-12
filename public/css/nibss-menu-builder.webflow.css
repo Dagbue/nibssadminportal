@@ -4079,12 +4079,14 @@ body {
   grid-row-gap: 8px;
   outline-offset: 0px;
   background-color: #fff;
-  border: 1px #e2e4e9;
+  border-bottom: 2.5px ;
   border-bottom-style: solid;
-  outline: 3px dashed #333;
+  border-color: rgba(226, 228, 233, 1);
+  /*outline: 3px dashed #333;*/
   width: auto;
   height: 38px;
   display: flex;
+  padding-bottom: 4px;
 }
 
 .admin-details-inner-container:focus {
@@ -4212,6 +4214,7 @@ body {
   border-top: 1px solid #e2e4e9;
   height: 84px;
   padding: 20px 16px;
+  margin-top: 30px;
 }
 
 .cance-nextstep-inner-container {
@@ -4950,11 +4953,18 @@ body {
   display: flex;
 }
 
-.linear-zapier-conatiner {
-  background-color: #fff;
-  height: 64px;
-  padding: 16px;
-}
+
+  .linear-zapier-conatiner {
+    background-color: #fff;
+    height: 272px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+  }
+
 
 .linear-app-check-container {
   justify-content: space-between;
@@ -5018,7 +5028,7 @@ body {
   border: 1px solid #eaecf0;
   border-radius: 12px;
   width: 511px;
-  height: 32px;
+  height: 64px;
   padding: 16px;
 }
 

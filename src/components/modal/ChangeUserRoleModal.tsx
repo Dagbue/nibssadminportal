@@ -1,11 +1,11 @@
 
-
+import userIcon from "../../assets/images/Frame-1618868326-9.svg"
 
 export default function ChangeUserRoleModal (){
     return (
         <>
             <div className="delete-modal-container">
-                <div className="delete-modal-header"><img src="../images/Frame-1618868326-9.svg" loading="lazy" alt=""
+                <div className="delete-modal-header"><img src= {userIcon} loading="lazy" alt=""
                                                           className="image-32"/>
                     <div className="delete-modal-header-content">
                         <div className="delet-modal-text-top">Change User Role</div>

@@ -5,7 +5,26 @@ import dashboardImg2 from "../../assets/images/layout-grid-line.svg"
 import dashboardImg from "../../assets/images/layout-grid-line2.svg"
 import reportImg from "../../assets/images/Vector.svg"
 import reportImg2 from "../../assets/images/Vector2.svg"
+import partnersImg from "../../assets/images/partnersImg.svg"
+import partnersImg2 from "../../assets/images/partnersImg2.svg"
+import APIImg from "../../assets/images/APIImg.svg"
+import APIImg2 from "../../assets/images/APIImg2.svg"
+import userImg from "../../assets/images/UserImg.svg"
+import userImg2 from "../../assets/images/UserImg2.svg"
+import nairaImg from "../../assets/images/Group-4-1.svg"
+import nairaImg2 from "../../assets/images/Group 4-1-2.svg"
+import supportImg from "../../assets/images/supportImg1.svg"
+import supportImg2 from "../../assets/images/supportImg2.svg"
+import aggImg from "../../assets/images/links-fill.svg"
+import aggImg2 from "../../assets/images/links-fill-2.svg"
+import checkerImg from "../../assets/images/checkbox-circle-line.svg"
+import checkerImg2 from "../../assets/images/checkbox-circle-line2.svg"
+import settingsImg from "../../assets/images/settings-4-line.svg"
+import settingsImg2 from "../../assets/images/settingsimg.svg"
+
+
 import {BaseNavLink} from "../nav/BaseNavLink.tsx";
+
 
 export default function NibbsSideBar(){
     return(
@@ -38,8 +57,19 @@ export default function NibbsSideBar(){
                                                  to={RouteConstant.dashboard.home.path}>Dashboard</BaseNavLink>
                                     <BaseNavLink isClicked={window.location.pathname=== RouteConstant.dashboard.report.path} whiteIcon={reportImg2}
                                                  leftIcon={reportImg} to={RouteConstant.dashboard.report.path}>Report</BaseNavLink>
-                                    {/*<BaseNavLink isClicked={window.location.pathname.includes('api')} whiteIcon={apiGrey2}*/}
-                                    {/*             leftIcon={apiGrey} to={RouteConstant.dashboard.apiManagement.path}>API Management</BaseNavLink>*/}
+                                    <BaseNavLink isClicked={window.location.pathname === RouteConstant.dashboard.partners.path} whiteIcon={partnersImg2}
+                                                 leftIcon={partnersImg} to={RouteConstant.dashboard.partners.path}>Partners</BaseNavLink>
+                                    <BaseNavLink isClicked={window.location.pathname === RouteConstant.dashboard.API.path} whiteIcon={APIImg}
+                                                 leftIcon={APIImg2} to={RouteConstant.dashboard.API.path}>API Management</BaseNavLink>
+                                    <BaseNavLink isClicked={window.location.pathname === RouteConstant.dashboard.user.path} whiteIcon={userImg2}
+                                                 leftIcon={userImg} to={RouteConstant.dashboard.user.path}>User Management</BaseNavLink>
+                                    <BaseNavLink isClicked={window.location.pathname === RouteConstant.dashboard.billing.path} whiteIcon={nairaImg2}
+                                                 leftIcon={nairaImg} to={RouteConstant.dashboard.billing.path}>Billing</BaseNavLink>
+                                    <BaseNavLink isClicked={window.location.pathname === RouteConstant.dashboard.support.path} whiteIcon={supportImg2}
+                                                 leftIcon={supportImg} to={RouteConstant.dashboard.support.path}>Support</BaseNavLink>
+
+
+
                                     {/*<BaseNavLink isClicked={window.location.pathname.includes('user')}*/}
                                     {/*             whiteIcon={userImg2} leftIcon={userImg}*/}
                                     {/*             to={RouteConstant.dashboard.userManagement.path}>User Management</BaseNavLink>*/}
@@ -111,30 +141,36 @@ export default function NibbsSideBar(){
                                 <div className="sidebar-menu-others-container">
                                     <div className="sidebar-menu-others-text">OTHERS</div>
                                     <div className="sidebar-others-options">
-                                        <div className="menu-option-container">
-                                            <div className="menu-option-dashboard">
-                                                <div className="dashboard-img"><img src="../images/links-fill.svg"
-                                                                                    loading="lazy" alt=""/>
-                                                </div>
-                                                <div className="dashboard-menu-text">Aggregator</div>
-                                            </div>
-                                        </div>
-                                        <div className="menu-option-container">
-                                            <div className="menu-option-dashboard">
-                                                <div className="dashboard-img"><img
-                                                    src="../images/checkbox-circle-line.svg"
-                                                    loading="lazy" alt=""/></div>
-                                                <div className="dashboard-menu-text">Checker</div>
-                                            </div>
-                                        </div>
-                                        <div className="menu-option-container">
-                                            <div className="menu-option-dashboard">
-                                                <div className="dashboard-img"><img src="../images/settings-4-line.svg"
-                                                                                    loading="lazy"
-                                                                                    alt=""/></div>
-                                                <div className="dashboard-menu-text">Accounting Settings</div>
-                                            </div>
-                                        </div>
+                                        {/*<div className="menu-option-container">*/}
+                                        {/*    <div className="menu-option-dashboard">*/}
+                                        {/*        <div className="dashboard-img"><img src="../images/links-fill.svg"*/}
+                                        {/*                                            loading="lazy" alt=""/>*/}
+                                        {/*        </div>*/}
+                                        {/*        <div className="dashboard-menu-text">Aggregator</div>*/}
+                                        {/*    </div>*/}
+                                        {/*</div>*/}
+                                        <BaseNavLink isClicked={window.location.pathname === RouteConstant.dashboard.aggregators.path} whiteIcon={aggImg2}
+                                                     leftIcon={aggImg} to={RouteConstant.dashboard.aggregators.path}>Aggregators</BaseNavLink>
+                                        <BaseNavLink isClicked={window.location.pathname === RouteConstant.dashboard.checker.path} whiteIcon={checkerImg2}
+                                                     leftIcon={checkerImg} to={RouteConstant.dashboard.checker.path}>Checkers</BaseNavLink>
+                                        <BaseNavLink isClicked={window.location.pathname === RouteConstant.dashboard.accountsettings.path} whiteIcon={settingsImg}
+                                                     leftIcon={settingsImg2} to={RouteConstant.dashboard.accountsettings.path}>Account Settings</BaseNavLink>
+                                        {/*<div className="menu-option-container">*/}
+                                        {/*    <div className="menu-option-dashboard">*/}
+                                        {/*        <div className="dashboard-img"><img*/}
+                                        {/*            src="../images/checkbox-circle-line.svg"*/}
+                                        {/*            loading="lazy" alt=""/></div>*/}
+                                        {/*        <div className="dashboard-menu-text">Checker</div>*/}
+                                        {/*    </div>*/}
+                                        {/*</div>*/}
+                                        {/*<div className="menu-option-container">*/}
+                                        {/*    <div className="menu-option-dashboard">*/}
+                                        {/*        <div className="dashboard-img"><img src="../images/settings-4-line.svg"*/}
+                                        {/*                                            loading="lazy"*/}
+                                        {/*                                            alt=""/></div>*/}
+                                        {/*        <div className="dashboard-menu-text">Accounting Settings</div>*/}
+                                        {/*    </div>*/}
+                                        {/*</div>*/}
                                     </div>
                                 </div>
                             </div>
