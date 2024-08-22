@@ -47,8 +47,8 @@ export default function AddPartnerBillingDetails (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66b48d1322e2c4983254b16e"
                                       data-wf-element-id="6dc17701-e431-1c13-1de7-a2c1d8aaaea2"><input
-                                    className="text-field w-input" maxLength="256" name="field-4" data-name="Field 4"
-                                    placeholder="Input account number" type="text" id="field-4" required=""/></form>
+                                    className="text-field w-input"  name="field-4" data-name="Field 4"
+                                    placeholder="Input account number" type="text" id="field-4" /></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>
@@ -65,8 +65,8 @@ export default function AddPartnerBillingDetails (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66b48d1322e2c4983254b16e"
                                       data-wf-element-id="29d7ee3c-04b9-c9a9-76e9-8a68ccc7f1f2"><input
-                                    className="text-field w-input" maxLength="256" name="field-3" data-name="Field 3"
-                                    placeholder="Insert bank code" type="text" id="field-3" required=""/></form>
+                                    className="text-field w-input" name="field-3" data-name="Field 3"
+                                    placeholder="Insert bank code" type="text" id="field-3" /></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>
@@ -85,8 +85,8 @@ export default function AddPartnerBillingDetails (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66b48d1322e2c4983254b16e"
                                       data-wf-element-id="6dc17701-e431-1c13-1de7-a2c1d8aaaebd"><input
-                                    className="text-field w-input" maxLength="256" name="field-3" data-name="Field 3"
-                                    placeholder="Input sort code" type="text" id="field-3" required=""/></form>
+                                    className="text-field w-input"  name="field-3" data-name="Field 3"
+                                    placeholder="Input sort code" type="text" id="field-3"/></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>

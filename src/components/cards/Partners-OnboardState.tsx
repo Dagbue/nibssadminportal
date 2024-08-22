@@ -214,7 +214,7 @@ export default function PartnersOnboardState(){
                                               data-wf-element-id="e08c2f69-cbb8-49f5-ae26-6e8d759126c7"><input
                                             className="billing-searchbar w-input" maxLength="256" name="field-2"
                                             data-name="Field 2" placeholder="Search" type="text" id="field-2"
-                                            required=""/></form>
+                                            required/></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>
@@ -698,7 +698,7 @@ export default function PartnersOnboardState(){
                                 </div>
                             </div>
                         </div>
-                        <div className="parthners-divider btm-divider"></div>
+                        {/*<div className="parthners-divider btm-divider"></div>*/}
                         <div className="all-activities-footer agg-paganation">
                             <a href="#" className="button-5 w-button">Previous</a>
                             <div className="page-number-box">

@@ -36,8 +36,8 @@ export default function NibbsSideBar(){
                     <div className="side-bar">
                         <div className="logo-admin-sidebar">
                             <div className="logo-admin-text-container">
-                                <div className="logo-img"><img src= {NibssLogoImg} loading="lazy" alt=""
-                                                               className="logo"/>
+                                <div className="logo-img">
+                                    <img src= {NibssLogoImg} loading="lazy" alt="" className="logo"/>
                                     <div className="logo-admin-text">
                                         <div className="logo-admin-text-top">
                                             <p className="paragraph-4">Admin</p>
@@ -51,7 +51,7 @@ export default function NibbsSideBar(){
                         <div className="sidebar-menu">
                             <div className="sidebar-menu-main-others-container">
                                 <div className="sidebar-menu-main-container">
-                                    <div className="sidebar-menu-main">MAIN</div>
+                                    <div className="sidebar-menu-others-text">MAIN</div>
                                     <BaseNavLink isClicked={window.location.pathname === RouteConstant.dashboard.home.path}
                                                  whiteIcon={dashboardImg} leftIcon={dashboardImg2}
                                                  to={RouteConstant.dashboard.home.path}>Dashboard</BaseNavLink>

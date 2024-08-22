@@ -24,7 +24,7 @@ export default function AuthLayout({children, title, subTitle, authImg, }:Layout
                                 {/*    {authButton}*/}
                                 {/*</div>*/}
                             </div>
-                            <div className="signup-form-wrapper align-center">
+                            <div className="signup-form-wrapper">
                                 <div className="margin-bottom margin-medium">
                                     <div className="text-align-center">
                                         <div className="margin-bottom margin-small"><img src={authImg}
@@ -39,9 +39,9 @@ export default function AuthLayout({children, title, subTitle, authImg, }:Layout
 
 
                             </div>
-                            <div className="login1_footer">
-                                <div className="text-size-small">© 2024 Nibss</div>
-                            </div>
+                            {/*<div className="login1_footer">*/}
+                            {/*    <div className="text-size-small">© 2024 Nibss</div>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </section>

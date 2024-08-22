@@ -1,5 +1,3 @@
-
-import reportImg from "../../assets/images/Frame-1618868326-2.svg"
 import nairaImg from "../../assets/images/Group-4-1.svg"
 import arrowImg from "../../assets/images/lead-icon.svg"
 import barchartImg from "../../assets/images/Line-and-bar-chart.svg"
@@ -14,7 +12,7 @@ import activityguageImg from "../../assets/images/Activity-gauge.svg"
 export default function Report () {
     return (
         <>
-            <div className="header-content-container report-body">
+            <div >
                 {/*<div className="dashboard-head">*/}
                 {/*    <div className="dashboard-icon-txt-container">*/}
                 {/*        <div className="dashboard-icon"><img src= {"reportImg"} loading="lazy"*/}
@@ -34,7 +32,7 @@ export default function Report () {
                 {/*    </div>*/}
                 {/*</div>*/}
                 {/*<div className="report-divider"></div>*/}
-                <div className="report-card-container">
+                <div >
                     <a href="#" className="button-8 w-button">Export Report</a>
                     <div className="billing-report-ticket-container">
                         <div className="billing-report-box">

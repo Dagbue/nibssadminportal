@@ -8,14 +8,14 @@ export type LayoutType = {
   children: ReactNode;
   dashboardSubHeading: string;
   dashboardHeading: string;
-  layoutButton?:ReactNode
+  // layoutButton?:ReactNode
 };
 
 export default function DashboardLayout({
   children,
   dashboardHeading,
   dashboardSubHeading,
-  layoutButton
+  // layoutButton
 }: LayoutType) {
 
 
@@ -26,12 +26,12 @@ export default function DashboardLayout({
           <div className="header-content-container">
             <div className="dashboard-head">
               <div className="dashboard-icon-txt-container">
-                <div className="dashboard-icon"><img src= {DasboardImg}loading="lazy" alt=""/>
+                <div className="dashboard-icon">
+                  <img src= {DasboardImg}loading="lazy" alt=""/>
                 </div>
                 <div className="dashboard-txt-container">
                   <div className="dashboard-top-text dash-small">{dashboardHeading}</div>
-                  <div className="dashboard-btm-txt hide-text">{dashboardSubHeading}
-                  </div>
+                  <div className="dashboard-btm-txt hide-text">{dashboardSubHeading}</div>
                 </div>
               </div>
               <div className="notification-createapp-container">
@@ -44,20 +44,20 @@ export default function DashboardLayout({
                   justifyContent:"center",
                   gap:"12px",
                   padding:"12px 6px",
-                  height:"40px",
-                  width: "132px",
+                  height:"35px",
+                  width: "145px",
                   backgroundColor:"#356D00",
                   color:"currentColor",
                   borderRadius:"12px",
                   boxShadow: "0px 1px 3px 0px #f6f8fa",
                   outline:"none",
                 }}>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 20 21" fill="none">
                     <path
                         d="M9.16675 9.71558V4.71558H10.8334V9.71558H15.8334V11.3822H10.8334V16.3822H9.16675V11.3822H4.16675V9.71558H9.16675Z"
                         fill="currentColor"></path>
                   </svg>
-                  {layoutButton}
+                  Create App
                 </button>
               </div>
             </div>

@@ -33,13 +33,49 @@
     color: rgba(53, 109, 0, 1);
 }
 .footer-nibss-copyright{
-    margin-right: 30px;
-    margin-left: 30px ;
-    margin-top: 320px;
+    /*margin-right: 30px;*/
+    /*margin-left: 30px ;*/
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 47%;
     display: flex;
-    justify-content: space-between;
-    gap: 100px;
+    justify-content: center;
+    color: #0a0d14;
 }
-/*.user{*/
-/*    width: 111px;*/
-/*}*/
+
+.form {
+    width: 100%;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.form-group-label {
+
+}
+
+.form-group-input {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    border-radius: 8px;
+    padding: 5px 20px;
+    color: #3c4a57;
+    border: 1px solid #e4e8ee;
+    box-shadow: none;
+    width: 100%;
+}
+
+.form-group-input:focus {
+    outline: none;
+}
+
+.form-group-input::placeholder {
+    color: #3c4a57;
+    font-weight: 400;
+    font-size: 14px;
+}
