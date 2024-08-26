@@ -69,7 +69,7 @@ export default function Integrations (){
                                                    position: 'absolute',
                                                    zIndex: -1,
                                                }}/><span
-                                        className="checkbox-label-7 w-form-label" htmlFor="checkbox-2"></span>
+                                        className="checkbox-label-7 w-form-label" ></span>
                                     </label></form>
                                     <div className="w-form-done">
                                         <div>Thank you! Your submission has been received!</div>
@@ -100,7 +100,7 @@ export default function Integrations (){
                                                    position: 'absolute',
                                                    zIndex: -1,
                                                }}/><span
-                                        className="checkbox-label-7 w-form-label" htmlFor="checkbox-2"></span>
+                                        className="checkbox-label-7 w-form-label" ></span>
                                     </label></form>
                                     <div className="w-form-done">
                                         <div>Thank you! Your submission has been received!</div>
@@ -131,7 +131,7 @@ export default function Integrations (){
                                                    position: 'absolute',
                                                    zIndex: -1,
                                                }}/><span
-                                        className="checkbox-label-7 w-form-label" htmlFor="checkbox-2"></span>
+                                        className="checkbox-label-7 w-form-label" ></span>
                                     </label></form>
                                     <div className="w-form-done">
                                         <div>Thank you! Your submission has been received!</div>
@@ -162,7 +162,7 @@ export default function Integrations (){
                                                    position: 'absolute',
                                                    zIndex: -1,
                                                }}/><span
-                                        className="checkbox-label-7 w-form-label" htmlFor="checkbox-2"></span>
+                                        className="checkbox-label-7 w-form-label" ></span>
                                     </label></form>
                                     <div className="w-form-done">
                                         <div>Thank you! Your submission has been received!</div>
@@ -193,7 +193,7 @@ export default function Integrations (){
                                                    position: 'absolute',
                                                    zIndex: -1,
                                                }}/><span
-                                        className="checkbox-label-7 w-form-label" htmlFor="checkbox-2"></span>
+                                        className="checkbox-label-7 w-form-label" ></span>
                                     </label></form>
                                     <div className="w-form-done">
                                         <div>Thank you! Your submission has been received!</div>
@@ -224,7 +224,7 @@ export default function Integrations (){
                                                    position: 'absolute',
                                                    zIndex: -1,
                                                }}/><span
-                                        className="checkbox-label-7 w-form-label" htmlFor="checkbox-2"></span>
+                                        className="checkbox-label-7 w-form-label" ></span>
                                     </label></form>
                                     <div className="w-form-done">
                                         <div>Thank you! Your submission has been received!</div>

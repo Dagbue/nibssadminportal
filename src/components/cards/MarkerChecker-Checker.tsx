@@ -1,8 +1,6 @@
 
 import usersettingsImg from "../../assets/images/user-settings-line.svg"
-import threedots from "../../assets/images/Dropdown.svg"
 import greendot from "../../assets/images/_Dot.svg"
-import checkImg from "../../assets/images/check.svg"
 
 export default function MarkerCheckerChecker(){
     return (
@@ -167,9 +165,9 @@ export default function MarkerCheckerChecker(){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66aa17652a4cf2eb5b5063d6"
                                               data-wf-element-id="79e95251-a190-ff9c-efbb-b84e0ce018a2"><input
-                                            className="billing-searchbar w-input" maxLength="256" name="field-2"
+                                            className="billing-searchbar w-input"  name="field-2"
                                             data-name="Field 2" placeholder="Search" type="text" id="field-2"
-                                            required=""/></form>
+                                            /></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>

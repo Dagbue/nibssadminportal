@@ -1,13 +1,11 @@
 
 import linearImg from "../../assets/images/linear.svg"
 import discordicon from "../../assets/images/discord.svg"
-import zapiericon from "../../assets/images/zapier.svg"
 import notionicon from "../../assets/images/notion.svg"
 import zendeskicon from "../../assets/images/zendesk.svg"
 import dropboxicon from "../../assets/images/dropbox.svg"
 import jiraicon from "../../assets/images/jira.svg"
 import githubicon from "../../assets/images/github.svg"
-import Integrations from "./Integrations.tsx";
 export default function Aggregtor (){
     return(
         <>

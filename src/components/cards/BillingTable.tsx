@@ -157,9 +157,9 @@ export default function BillingTable(){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66a532a5b8920483fd9387d6"
                                               data-wf-element-id="566b60d6-96fc-30b0-4773-8e535f23980b"><input
-                                            className="billing-searchbar w-input" maxLength="256" name="field-2"
+                                            className="billing-searchbar w-input"  name="field-2"
                                             data-name="Field 2" placeholder="Search" type="text" id="field-2"
-                                            required=""/></form>
+                                            /></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>
@@ -186,9 +186,9 @@ export default function BillingTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-4"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-5 w-form-label"
-                                                htmlFor="checkbox-3">S/N</span>
+                                               >S/N</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -208,8 +208,8 @@ export default function BillingTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3"></div>
                                                 <input type="checkbox" id="checkbox" name="checkbox"
                                                        data-name="Checkbox"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox">1</span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label" >1</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -229,8 +229,8 @@ export default function BillingTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3"></div>
                                                 <input type="checkbox" id="checkbox-2" name="checkbox-2"
                                                        data-name="Checkbox 2"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-2">2</span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label" >2</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -250,8 +250,8 @@ export default function BillingTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3"></div>
                                                 <input type="checkbox" id="checkbox-2" name="checkbox-2"
                                                        data-name="Checkbox 2"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-2">3</span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label" >3</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -271,8 +271,8 @@ export default function BillingTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3"></div>
                                                 <input type="checkbox" id="checkbox-2" name="checkbox-2"
                                                        data-name="Checkbox 2"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-2">4</span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label" >4</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -292,8 +292,8 @@ export default function BillingTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3"></div>
                                                 <input type="checkbox" id="checkbox-2" name="checkbox-2"
                                                        data-name="Checkbox 2"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-2">5</span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label" >5</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -313,8 +313,8 @@ export default function BillingTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3"></div>
                                                 <input type="checkbox" id="checkbox-2" name="checkbox-2"
                                                        data-name="Checkbox 2"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-2">6</span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label" >6</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -334,8 +334,8 @@ export default function BillingTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3"></div>
                                                 <input type="checkbox" id="checkbox-2" name="checkbox-2"
                                                        data-name="Checkbox 2"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-2">7</span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label" >7</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>

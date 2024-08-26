@@ -238,9 +238,9 @@ export default function PartnersEmptyState (){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66a9fc0c449dacb5ffd4fc39"
                                               data-wf-element-id="fbbbd927-5be5-eef7-d9d2-6f0b96ce69d4"><input
-                                            className="billing-searchbar w-input" maxLength="256" name="field-2"
+                                            className="billing-searchbar w-input"  name="field-2"
                                             data-name="Field 2" placeholder="Search" type="text" id="field-2"
-                                            required=""/></form>
+                                            /></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>

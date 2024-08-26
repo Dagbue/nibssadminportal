@@ -1,6 +1,4 @@
 
-import bellImg from "../../assets/images/Frame-18.svg"
-import messageImg from "../../assets/images/Frame-1618868326-1.svg"
 import usersettingsImg from "../../assets/images/user-settings-line.svg"
 export default function DashboardActivities(){
     return(

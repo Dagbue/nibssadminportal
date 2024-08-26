@@ -1,5 +1,3 @@
-
-import threedots from "../../assets/images/Dropdown.svg"
 import uploadImg from "../../assets/images/upload-2-line.svg"
 import upanddownimg from "../../assets/images/Frame-5-1.svg"
 import Avatar1Img from "../../assets/images/Avatar-1.svg"
@@ -166,9 +164,9 @@ export default function SupportTable(){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66a5790e8253ff8176321ccc"
                                               data-wf-element-id="16d75afb-c584-767d-852e-096b5ca0226f"><input
-                                            className="deposit-nondeposit-searchbar w-input" maxLength="256"
+                                            className="deposit-nondeposit-searchbar w-input" 
                                             name="field-2" data-name="Field 2" placeholder="Search" type="text"
-                                            id="field-2" required=""/></form>
+                                            id="field-2" /></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>
@@ -342,9 +340,9 @@ export default function SupportTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-7"></div>
                                                 <input type="checkbox" id="checkbox-4" name="checkbox-4"
                                                        data-name="Checkbox 4"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-6 w-form-label"
-                                                htmlFor="checkbox-4">Company</span>
+                                                >Company</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -366,9 +364,9 @@ export default function SupportTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -394,9 +392,9 @@ export default function SupportTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -422,9 +420,9 @@ export default function SupportTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -450,9 +448,9 @@ export default function SupportTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -478,9 +476,9 @@ export default function SupportTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -506,9 +504,9 @@ export default function SupportTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -534,9 +532,9 @@ export default function SupportTable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">

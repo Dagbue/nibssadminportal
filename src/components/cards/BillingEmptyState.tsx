@@ -1,6 +1,4 @@
 
-import bellImg from "../../assets/images/Frame-18.svg"
-import userIcon from "../../assets/images/Frame-1618868326-3.svg"
 import emptystateImg from "../../assets/images/Empty-States.svg"
 export default function BillingEmptyState (){
     return(
@@ -163,8 +161,8 @@ export default function BillingEmptyState (){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66a3bc724a8f1e89a2446ae1"
                                               data-wf-element-id="5b5702b1-09e6-4d82-a418-6bcbeb55df5f"><input
-                                            className="billing-searchbar w-input" maxLength="256" name="field"
-                                            data-name="Field" placeholder="Search" type="text" id="field" required=""/>
+                                            className="billing-searchbar w-input"  name="field"
+                                            data-name="Field" placeholder="Search" type="text" id="field" />
                                         </form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>

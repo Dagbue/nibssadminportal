@@ -39,9 +39,9 @@ export default function APITable(){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66ab4f5c545fb122260c44f1"
                                               data-wf-element-id="c0b1b2e3-de99-f868-68d0-1def3b559e4b"><input
-                                            className="billing-searchbar api-search w-input" maxLength="256"
+                                            className="billing-searchbar api-search w-input" 
                                             name="field-2" data-name="Field 2" placeholder="Search" type="text"
-                                            id="field-2" required=""/></form>
+                                            id="field-2" /></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>
@@ -63,9 +63,9 @@ export default function APITable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-7"></div>
                                                 <input type="checkbox" id="checkbox-4" name="checkbox-4"
                                                        data-name="Checkbox 4"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-6 w-form-label"
-                                                htmlFor="checkbox-4">Company</span>
+                                                >Company</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -87,9 +87,9 @@ export default function APITable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -115,9 +115,9 @@ export default function APITable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -143,9 +143,9 @@ export default function APITable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -171,9 +171,9 @@ export default function APITable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -199,9 +199,9 @@ export default function APITable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -227,9 +227,9 @@ export default function APITable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -255,9 +255,9 @@ export default function APITable(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -276,7 +276,7 @@ export default function APITable(){
                                 <div className="type-row-conatiner added-api-table">
                                     <div className="type-row-header">
                                         <div className="type-txt-box">No. of Added APi</div>
-                                        <img {upanddownimg} loading="lazy" alt=""/>
+                                        <img src={upanddownimg}  loading="lazy" alt=""/>
                                     </div>
                                     <div className="bank-type-box">
                                         <div className="regional-bank-txt">9</div>
@@ -303,7 +303,7 @@ export default function APITable(){
                                 <div className="parthenr-id-row active-api-table">
                                     <div className="parthner-id-header active-api-header">
                                         <div className="parthner-id-txt">No. of Active API</div>
-                                        <img {upanddownimg} loading="lazy" alt="" className="image-28"/>
+                                        <img src={upanddownimg} loading="lazy" alt="" className="image-28"/>
                                     </div>
                                     <div className="id-tst-container">
                                         <div className="text-block">1</div>
@@ -370,7 +370,7 @@ export default function APITable(){
                                 <div className="date-created-column update-api-table">
                                     <div className="date-created-bo">
                                         <div className="text-block-2">Last Updated</div>
-                                        <img {upanddownimg} loading="lazy" alt="" className="image-29"/>
+                                        <img src={upanddownimg} loading="lazy" alt="" className="image-29"/>
                                     </div>
                                     <div className="date-time-block">
                                         <div className="date-time-txt">

@@ -16,13 +16,13 @@ export default function AddUserModal (){
                     <form id="email-form" name="email-form" data-name="Email Form" method="get"
                           className="add-user-form" data-wf-page-id="66b0d4be3d9857c6eb407cc6"
                           data-wf-element-id="430f206a-f62a-5f5d-7edd-dec86857bdac"><label htmlFor="name-4">First
-                        Name</label><input className="text-field-4 w-input" maxLength="256" name="name-4"
+                        Name</label><input className="text-field-4 w-input"  name="name-4"
                                            data-name="Name 4" placeholder="Name of Institution" type="text"
                                            id="name-4"/><label htmlFor="name-4">Last Name</label><input
-                        className="text-field-4 w-input" maxLength="256" name="name-2" data-name="Name 2"
+                        className="text-field-4 w-input"  name="name-2" data-name="Name 2"
                         placeholder="Name of Institution" type="text" id="name-2"/><label htmlFor="name-4">Email</label><input
-                        className="text-field-4 w-input" maxLength="256" name="name-3" data-name="Name 3"
-                        placeholder="Provide admin email" type="email" id="name-3" required=""/><label htmlFor="field-2"
+                        className="text-field-4 w-input"  name="name-3" data-name="Name 3"
+                        placeholder="Provide admin email" type="email" id="name-3" /><label htmlFor="field-2"
                                                                                                        className="field-label">Role</label><select
                         id="field-2" name="field-2" data-name="Field 2" className="select-field-5 w-select">
                         <option value="">Select Role</option>
