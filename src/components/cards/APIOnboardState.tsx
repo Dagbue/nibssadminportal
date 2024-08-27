@@ -40,9 +40,9 @@ export default function APIOnboardState(){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66ab5c42e30229efdd68f62d"
                                               data-wf-element-id="bd8b19eb-18cd-9018-c9d8-2eb8c5b03890"><input
-                                            className="billing-searchbar api-search w-input" maxLength="256"
+                                            className="billing-searchbar api-search w-input" 
                                             name="field-2" data-name="Field 2" placeholder="Search" type="text"
-                                            id="field-2" required=""/></form>
+                                            id="field-2" /></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>
@@ -69,9 +69,11 @@ export default function APIOnboardState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-7"></div>
                                                 <input type="checkbox" id="checkbox-4" name="checkbox-4"
                                                        data-name="Checkbox 4"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}
+
+                                                /><span
                                                 className="checkbox-label-6 date-created-state w-form-label"
-                                                htmlFor="checkbox-4">Date Created</span>
+                                                >Date Created</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -93,8 +95,8 @@ export default function APIOnboardState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing"></div>
                                                 <div className="api-date-created">
@@ -121,8 +123,8 @@ export default function APIOnboardState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing"></div>
                                                 <div className="api-date-created">
@@ -149,8 +151,8 @@ export default function APIOnboardState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing"></div>
                                                 <div className="api-date-created">
@@ -177,8 +179,8 @@ export default function APIOnboardState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing"></div>
                                                 <div className="api-date-created">
@@ -205,8 +207,8 @@ export default function APIOnboardState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing"></div>
                                                 <div className="api-date-created">
@@ -233,8 +235,8 @@ export default function APIOnboardState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing"></div>
                                                 <div className="api-date-created">
@@ -261,8 +263,8 @@ export default function APIOnboardState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing"></div>
                                                 <div className="api-date-created">

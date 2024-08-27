@@ -1,6 +1,5 @@
 import threedots from "../../assets/images/Dropdown.svg"
 import upanddownimg from "../../assets/images/Frame-5-1.svg"
-import uploadImg from "../../assets/images/upload-2-line.svg"
 
 
 export default function SupportOnboardedState(){
@@ -155,7 +154,7 @@ export default function SupportOnboardedState(){
                                     account
                                 </div>
                             </div>
-                            <div className="filter-tab"><img src=uploadImgloading="lazy" alt=""
+                            <div className="filter-tab"><img src={upanddownimg} loading="lazy" alt=""
                                                              className="image-15"/>
                                 <div className="filter-txt">Export list</div>
                             </div>
@@ -168,9 +167,9 @@ export default function SupportOnboardedState(){
                                             <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                                   data-wf-page-id="66a60b1db44f4e38464b999d"
                                                   data-wf-element-id="91697cbb-7d62-2c33-07d5-10268b3521f9"><input
-                                                className="billing-searchbar w-input" maxLength="256" name="field-2"
+                                                className="billing-searchbar w-input"  name="field-2"
                                                 data-name="Field 2" placeholder="Search" type="text" id="field-2"
-                                                required=""/></form>
+                                                /></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
                                             </div>
@@ -333,9 +332,9 @@ export default function SupportOnboardedState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-7"></div>
                                                 <input type="checkbox" id="checkbox-4" name="checkbox-4"
                                                        data-name="Checkbox 4"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-6 w-form-label"
-                                                htmlFor="checkbox-4">Title</span>
+                                                >Title</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -357,8 +356,8 @@ export default function SupportOnboardedState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing">
                                                     <div className="institution-name-txt failed-        Transaction">Failed
@@ -385,8 +384,8 @@ export default function SupportOnboardedState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing">
                                                     <div className="institution-name-txt failed-        Transaction">Failed
@@ -413,8 +412,8 @@ export default function SupportOnboardedState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing">
                                                     <div className="institution-name-txt failed-        Transaction">Failed
@@ -441,8 +440,8 @@ export default function SupportOnboardedState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing">
                                                     <div className="institution-name-txt failed-        Transaction">Failed
@@ -469,8 +468,8 @@ export default function SupportOnboardedState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing">
                                                     <div className="institution-name-txt failed-        Transaction">Failed
@@ -497,8 +496,8 @@ export default function SupportOnboardedState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing">
                                                     <div className="institution-name-txt failed-        Transaction">Failed
@@ -525,8 +524,8 @@ export default function SupportOnboardedState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
-                                                className="checkbox-label-4 w-form-label" htmlFor="checkbox-3"></span>
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
+                                                className="checkbox-label-4 w-form-label"></span>
                                             </label>
                                                 <div className="comany-bank-name-billing">
                                                     <div className="institution-name-txt failed-        Transaction">Failed

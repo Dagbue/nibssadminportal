@@ -47,8 +47,8 @@ export default function RoutingNumber (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66b49e59929be7446555a85a"
                                       data-wf-element-id="5af55e87-11cd-3d83-c5af-eba21fca0db3"><input
-                                    className="text-field w-input" maxLength="256" name="field-4" data-name="Field 4"
-                                    placeholder="Input routing number" type="text" id="field-4" required=""/></form>
+                                    className="text-field w-input"  name="field-4" data-name="Field 4"
+                                    placeholder="Input routing number" type="text" id="field-4" /></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>

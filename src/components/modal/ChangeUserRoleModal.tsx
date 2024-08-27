@@ -23,8 +23,8 @@ export default function ChangeUserRoleModal (){
                                     <div
                                         className="w-form-formradioinput w-form-formradioinput--inputType-custom radio-button-3 w-radio-input"></div>
                                     <input type="radio" data-name="Radio" id="radio" name="radio"
-                                           style="opacity:0;position:absolute;z-index:-1" value="Radio"/><span
-                                    className="radio-button-label-2 w-form-label" htmlFor="radio">User</span>
+                                           style={{opacity:"0",position:"absolute", zIndex:"-1"}} value="Radio"/><span
+                                    className="radio-button-label-2 w-form-label" >User</span>
                                 </label></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
@@ -43,8 +43,8 @@ export default function ChangeUserRoleModal (){
                                     <div
                                         className="w-form-formradioinput w-form-formradioinput--inputType-custom radio-button-4 w-radio-input"></div>
                                     <input type="radio" name="Radio-2" id="radio-2" data-name="Radio 2"
-                                           style="opacity:0;position:absolute;z-index:-1" value="Radio 2"/><span
-                                    className="radio-button-label-3 w-form-label" htmlFor="radio-2">Admin</span>
+                                           style={{opacity:"0",position:"absolute", zIndex:"-1"}} value="Radio 2"/><span
+                                    className="radio-button-label-3 w-form-label" >Admin</span>
                                 </label></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>

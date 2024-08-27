@@ -39,9 +39,9 @@ export default function APIEmptyState(){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66ab4bb096bfc6455450edc9"
                                               data-wf-element-id="040595d9-7edb-be92-efdb-bea6383d46ba"><input
-                                            className="billing-searchbar w-input" maxLength="256" name="field-2"
+                                            className="billing-searchbar w-input"  name="field-2"
                                             data-name="Field 2" placeholder="Search" type="text" id="field-2"
-                                            required=""/></form>
+                                            /></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>

@@ -168,9 +168,9 @@ export default function MarkerCheckerApproved (){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66aa2c4d2ab8064b8fe27abe"
                                               data-wf-element-id="454c089c-6a1d-c386-f50c-1683a8bea162"><input
-                                            className="billing-searchbar w-input" maxLength="256" name="field-2"
+                                            className="billing-searchbar w-input"  name="field-2"
                                             data-name="Field 2" placeholder="Search" type="text" id="field-2"
-                                            required=""/></form>
+                                            /></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>

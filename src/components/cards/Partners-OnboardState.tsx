@@ -212,7 +212,7 @@ export default function PartnersOnboardState(){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66aa9694a11ab9e4f54a1159"
                                               data-wf-element-id="e08c2f69-cbb8-49f5-ae26-6e8d759126c7"><input
-                                            className="billing-searchbar w-input" maxLength="256" name="field-2"
+                                            className="billing-searchbar w-input"  name="field-2"
                                             data-name="Field 2" placeholder="Search" type="text" id="field-2"
                                             required/></form>
                                         <div className="w-form-done">
@@ -247,8 +247,7 @@ export default function PartnersOnboardState(){
                                                            position: 'absolute',
                                                            zIndex: -1,
                                                        }}/><span
-                                                className="checkbox-label-6 w-form-label"
-                                                htmlFor="checkbox">Company</span>
+                                                className="checkbox-label-6 w-form-label">Company</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -275,8 +274,7 @@ export default function PartnersOnboardState(){
                                                            position: 'absolute',
                                                            zIndex: -1,
                                                        }}/><span
-                                                className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                                className="checkbox-label-4 w-form-label"></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -308,7 +306,7 @@ export default function PartnersOnboardState(){
                                                            zIndex: -1,
                                                        }}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -340,7 +338,7 @@ export default function PartnersOnboardState(){
                                                            zIndex: -1,
                                                        }}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -372,7 +370,7 @@ export default function PartnersOnboardState(){
                                                            zIndex: -1,
                                                        }}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -404,7 +402,7 @@ export default function PartnersOnboardState(){
                                                            zIndex: -1,
                                                        }}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -436,7 +434,7 @@ export default function PartnersOnboardState(){
                                                            zIndex: -1,
                                                        }}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -468,7 +466,7 @@ export default function PartnersOnboardState(){
                                                            zIndex: -1,
                                                        }}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src={Avatar1Img}
+                                               ></span><img src={Avatar1Img}
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">

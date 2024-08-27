@@ -184,9 +184,9 @@ export default function UserManagementEmptyState (){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66ab6a720be2667d5e8a1201"
                                               data-wf-element-id="65fb3737-d229-cef3-4040-313074ccdae8"><input
-                                            className="billing-searchbar w-input" maxLength="256" name="field-2"
+                                            className="billing-searchbar w-input"  name="field-2"
                                             data-name="Field 2" placeholder="Search" type="text" id="field-2"
-                                            required=""/></form>
+                                            /></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>

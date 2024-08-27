@@ -340,9 +340,9 @@ export default function DashboardDataState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-7"></div>
                                                 <input type="checkbox" id="checkbox-4" name="checkbox-4"
                                                        data-name="Checkbox 4"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-6 w-form-label"
-                                                htmlFor="checkbox-4">Company</span>
+                                                >Company</span>
                                             </label></form>
                                             <div className="w-form-done">
                                                 <div>Thank you! Your submission has been received!</div>
@@ -364,9 +364,9 @@ export default function DashboardDataState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src="../images/Avatar-1.svg"
+                                               ></span><img src="../images/Avatar-1.svg"
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -392,9 +392,9 @@ export default function DashboardDataState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src="../images/Avatar-1.svg"
+                                               ></span><img src="../images/Avatar-1.svg"
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -420,9 +420,9 @@ export default function DashboardDataState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src="../images/Avatar-1.svg"
+                                               ></span><img src="../images/Avatar-1.svg"
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -448,9 +448,9 @@ export default function DashboardDataState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src="../images/Avatar-1.svg"
+                                               ></span><img src="../images/Avatar-1.svg"
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -476,9 +476,9 @@ export default function DashboardDataState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src="../images/Avatar-1.svg"
+                                               ></span><img src="../images/Avatar-1.svg"
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -504,9 +504,9 @@ export default function DashboardDataState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src="../images/Avatar-1.svg"
+                                               ></span><img src="../images/Avatar-1.svg"
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">
@@ -532,9 +532,9 @@ export default function DashboardDataState(){
                                                     className="w-checkbox-input w-checkbox-input--inputType-custom checkbox-3 company-parthner-bank-checkbox"></div>
                                                 <input type="checkbox" id="checkbox-3" name="checkbox-3"
                                                        data-name="Checkbox 3"
-                                                       style="opacity:0;position:absolute;z-index:-1"/><span
+                                                       style={{opacity:"0",position:"absolute", zIndex:"-1"}}/><span
                                                 className="checkbox-label-4 w-form-label"
-                                                htmlFor="checkbox-3"></span><img src="../images/Avatar-1.svg"
+                                               ></span><img src="../images/Avatar-1.svg"
                                                                                  loading="lazy" alt=""/>
                                             </label>
                                                 <div className="comany-bank-name-billing">

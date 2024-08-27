@@ -162,9 +162,9 @@ export default function SupportEpmtyState(){
                                         <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                               data-wf-page-id="66a57384dc623da81d0a8523"
                                               data-wf-element-id="a271638b-8ec9-39bc-9f55-8f57dc82fe8e"><input
-                                            className="billing-searchbar w-input" maxLength="256" name="field-2"
+                                            className="billing-searchbar w-input"  name="field-2"
                                             data-name="Field 2" placeholder="Search" type="text" id="field-2"
-                                            required=""/></form>
+                                            /></form>
                                         <div className="w-form-done">
                                             <div>Thank you! Your submission has been received!</div>
                                         </div>

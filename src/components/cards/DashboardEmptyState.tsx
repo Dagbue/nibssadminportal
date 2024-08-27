@@ -253,28 +253,31 @@ export default function DashboardEmptyState(){
                                     <div className="createapp-top-txt">Whoops.. you&#x27;ve got no App</div>
                                     <div className="div-block-5">Start by creating your very first app</div>
                                 </div>
-                                <div className="green-btn empty-state-green-btn w-embed">
-                                    <button className="custom-btn" style="display:flex;
-align-items:center;
-justify-content:center;
-gap:12px;
-padding:12px 16px;
-height:40px;
-background-color:#356D00;
-color:currentColor;
-border-radius:12px;
-box-shadow: 0px 1px 3px 0px #f6f8fa;
-outline:none;
-">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"
-                                             viewBox="0 0 20 21" fill="none">
-                                            <path
-                                                d="M9.16675 9.71558V4.71558H10.8334V9.71558H15.8334V11.3822H10.8334V16.3822H9.16675V11.3822H4.16675V9.71558H9.16675Z"
-                                                fill="currentColor"></path>
-                                        </svg>
-                                        Create App
-                                    </button>
-                                </div>
+                                {/*<div className="green-btn empty-state-green-btn w-embed">*/}
+                                {/*    <button className="custom-btn" */}
+                                {/*            style={{display:"flex", alignItems:"center",justifyContent:"center", padding:"12px 16px"}}*/}
+                                {/*            */}
+                                {/*            */}
+                                {/*            style="display:flex;align-items:center;*/}
+                                {/*                                                justify-content:center;*/}
+                                {/*                                                gap:12px;*/}
+                                {/*                                                padding:12px 16px;*/}
+                                {/*                                                height:40px;*/}
+                                {/*                                                background-color:#356D00;*/}
+                                {/*                                                color:currentColor;*/}
+                                {/*                                                border-radius:12px;*/}
+                                {/*                                                box-shadow: 0px 1px 3px 0px #f6f8fa;*/}
+                                {/*                                                outline:none;*/}
+                                {/*                                               ">*/}
+                                {/*        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"*/}
+                                {/*             viewBox="0 0 20 21" fill="none">*/}
+                                {/*            <path*/}
+                                {/*                d="M9.16675 9.71558V4.71558H10.8334V9.71558H15.8334V11.3822H10.8334V16.3822H9.16675V11.3822H4.16675V9.71558H9.16675Z"*/}
+                                {/*                fill="currentColor"></path>*/}
+                                {/*        </svg>*/}
+                                {/*        Create App*/}
+                                {/*    </button>*/}
+                                {/*</div>*/}
                             </div>
                         </div>
                     </div>

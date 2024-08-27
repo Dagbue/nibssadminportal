@@ -4,8 +4,29 @@ import RandomPattern from "../../assets/images/Group-2.svg"
 import TotalAPIImg from "../../assets/images/Frame-1618868316-1.svg"
 import  TotalUsersImg from "../../assets/images/Frame-1618868316-2.svg"
 import EmptyStatesImg from "../../assets/images/Empty-States.svg"
+import {useEffect} from "react";
+import {AppDispatch, useAppDispatch} from '../../store/modules'; // Adjust the import path
+import {application} from "../../store/modules/application.ts";
+import {useDispatch} from "react-redux";
+
+export type ActionType<T> = {
+    data: T;
+    onSuccess?: (payload?: any) => void;
+    onError?: (payload?: any) => void;
+};
+// export type AppDispatch = typeof store.dispatch;
 
 export default function DashboardEmptyState(){
+
+
+    const dispatch = useAppDispatch();
+
+    useEffect(() => {
+        dispatch(application.action.readApp({})); // Adjust the payload if needed
+    }, [dispatch]);
+
+
+
     return(
         <>
             <div className={"dashboard-card-container"}>

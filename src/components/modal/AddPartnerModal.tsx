@@ -48,8 +48,8 @@ export default function AddPartnerModal (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66ae2ff4a47301d54525005e"
                                       data-wf-element-id="56a78fdc-69d5-2d65-2867-1bfdf15c1876"><input
-                                    className="text-field w-input" maxLength="256" name="field" data-name="Field"
-                                    placeholder="Name of the institution" type="text" id="field" required=""/></form>
+                                    className="text-field w-input"  name="field" data-name="Field"
+                                    placeholder="Name of the institution" type="text" id="field" /></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>
@@ -68,7 +68,7 @@ export default function AddPartnerModal (){
                                       data-wf-element-id="b5d21f54-7bd0-3e12-e9e0-c4c265e398d9"><select id="field-2"
                                                                                                         name="field-2"
                                                                                                         data-name="Field 2"
-                                                                                                        required=""
+                                                                                                        
                                                                                                         className="select-field-3 w-select">
                                     <option value="">Select type of institution</option>
                                     <option value="First">OFI&#x27;s</option>
@@ -92,8 +92,8 @@ export default function AddPartnerModal (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66ae2ff4a47301d54525005e"
                                       data-wf-element-id="04dcc25e-326d-0c50-4aef-5d2d8851ab40"><input
-                                    className="text-field w-input" maxLength="256" name="field-3" data-name="Field 3"
-                                    placeholder="Provide first name" type="text" id="field-3" required=""/></form>
+                                    className="text-field w-input"  name="field-3" data-name="Field 3"
+                                    placeholder="Provide first name" type="text" id="field-3" /></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>
@@ -110,8 +110,8 @@ export default function AddPartnerModal (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66ae2ff4a47301d54525005e"
                                       data-wf-element-id="e887a045-112d-0a4f-5772-2c4689f2b86c"><input
-                                    className="text-field w-input" maxLength="256" name="field-3" data-name="Field 3"
-                                    placeholder="Provide last name" type="text" id="field-3" required=""/></form>
+                                    className="text-field w-input"  name="field-3" data-name="Field 3"
+                                    placeholder="Provide last name" type="text" id="field-3" /></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>
@@ -130,8 +130,8 @@ export default function AddPartnerModal (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66ae2ff4a47301d54525005e"
                                       data-wf-element-id="da5264e6-7b7d-f106-d962-61e4e8fbd77e"><input
-                                    className="text-field w-input" maxLength="256" name="field-3" data-name="Field 3"
-                                    placeholder="Provide admin email" type="email" id="field-3" required=""/></form>
+                                    className="text-field w-input"  name="field-3" data-name="Field 3"
+                                    placeholder="Provide admin email" type="email" id="field-3" /></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>

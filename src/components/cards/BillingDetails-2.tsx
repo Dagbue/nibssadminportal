@@ -47,8 +47,8 @@ export default function BillingDetails2 (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66b49058a3813a8d342e39ad"
                                       data-wf-element-id="97573256-3d7e-a0b7-0951-3e50ddaa2cd4"><input
-                                    className="text-field w-input" maxLength="256" name="field-4" data-name="Field 4"
-                                    placeholder="2075975944" type="text" id="field-4" required=""/></form>
+                                    className="text-field w-input"  name="field-4" data-name="Field 4"
+                                    placeholder="2075975944" type="text" id="field-4" /></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>
@@ -66,8 +66,8 @@ export default function BillingDetails2 (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66b49058a3813a8d342e39ad"
                                       data-wf-element-id="97573256-3d7e-a0b7-0951-3e50ddaa2ce1"><input
-                                    className="text-field w-input" maxLength="256" name="field-3" data-name="Field 3"
-                                    placeholder="BC10239343" type="text" id="field-3" required=""/></form>
+                                    className="text-field w-input"  name="field-3" data-name="Field 3"
+                                    placeholder="BC10239343" type="text" id="field-3" /></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>
@@ -86,8 +86,8 @@ export default function BillingDetails2 (){
                                 <form id="email-form" name="email-form" data-name="Email Form" method="get"
                                       data-wf-page-id="66b49058a3813a8d342e39ad"
                                       data-wf-element-id="97573256-3d7e-a0b7-0951-3e50ddaa2cef"><input
-                                    className="text-field w-input" maxLength="256" name="field-3" data-name="Field 3"
-                                    placeholder="42545" type="text" id="field-3" required=""/></form>
+                                    className="text-field w-input"  name="field-3" data-name="Field 3"
+                                    placeholder="42545" type="text" id="field-3" /></form>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>
